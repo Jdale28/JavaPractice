@@ -12,6 +12,7 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public String index() {
-        return "Java can die in a fire";
+        // Since we have a return statement, we aren't super sure how to put more stuff on the page beyond concatenating statements
+        return "Java can die in a fire." + " " + "I would prefer not to get a Java job at this time.";
     }
 }
